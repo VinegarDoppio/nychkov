@@ -15,7 +15,7 @@ public class Main {
         List<Studentyi> rows = query.list();
         
         for(Studentyi row : rows) {
-            System.out.println(row.getGruppyi() + " " + row.getOtchestvo() + " " + row.getImya());
+            System.out.println(row.getGruppyi());
         }
         session.getTransaction().commit();
         }
