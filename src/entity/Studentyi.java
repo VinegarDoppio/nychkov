@@ -162,10 +162,6 @@ public class Studentyi  implements java.io.Serializable {
     public void setStatusDate(Date statusDate) {
         this.statusDate = statusDate;
     }
-
-
-
-
 }
 
 
